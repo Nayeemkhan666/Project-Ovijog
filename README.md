@@ -4,23 +4,6 @@ A web-based application(developing with MVC architecture) mainly focuses on the 
 ## Documentation
 - A brief documentation about all files is available at <a href="https://iit-nstu.github.io/project-ovijog/" target="_blank">`Project Ovijog api-docs`</a>
 
-## Contributors
-
- ```
- Arnab Dey
- ```
-- Contact No : 0172501782
-- Gmail at arnab2514@student.nstu.edu.bd
-- GitHub at <a href="https://github.com/arnabdey24" target="_blank">`Arnab Dey GitHub`</a>
-
-```
- Armanur Rashid
- ```
-- Contact No : 01875560507
-- Gmail at armanur2514@student.nstu.edu.bd 
-- GitHub at <a href="https://github.com/armanurrashid" target="_blank">`Armanur Rashid GitHub`</a>
-
-```
  Nayeem Khan
  ```
 - Contact No : 017811390500
