@@ -1,0 +1,96 @@
+.card-font-color {
+    color: white;
+}
+
+.trending-heading {
+    font-family: Penna;
+    font-weight: bold;
+}
+
+.post-hover:hover {
+    background-color: #a6b4c9;
+}
+
+.solved-hover:hover {
+    background-color: #9bdac7;
+}
+
+.unsolved-hover:hover {
+    background-color: #e2a1a8;
+}
+
+.line {
+    height: 1px;
+    width: 45%;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.or {
+    width: 10%;
+    font-weight: bold;
+}
+
+.card-effect:hover {
+    background-color: #f1fafe;
+}
+
+h6 {
+    color: #386fa7;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flip-main .flip-card {
+    flex: 0 0 calc(33.33% - 30px);
+    perspective: 1000px;
+}
+
+.flip-main .flip-card-inner {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+
+.flip-main .flip-card-front img {
+    width: 100%;
+}
+
+.flip-main .flip-card-front,
+.flip-main .flip-card-back {
+    backface-visibility: hidden;
+}
+
+.flip-main .flip-card-back {
+    background-color: #6e0ec5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+.flip-main .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+@media (max-width: 991px) {
+    .flip-main .flip-card {
+        flex: 0 0 calc(50% - 30px);
+    }
+}
+
+@media (max-width: 767px) {
+    .flip-main .flip-card {
+        flex: 0 0 calc(100% - 30px);
+    }
+}

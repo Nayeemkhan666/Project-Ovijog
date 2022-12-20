@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+.card {
+    border: none;
+}
+
+.crop-text {
+    width: 100%;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.button-background-color {
+    background-color: #293462;
+    color: white;
+}
+
+.button-background-color:hover {
+    color: white;
+}
+
+#create-post-button {
+    height: 40px;
+}
+
+#create-post-button-div {
+    display: flex;
+}
+
+.create-post-heading {
+    background-color: #dae1e9;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+.up-down-vote-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: stretch;
+}
+
+.body-text {
+    text-align: justify;
+}
+
+.icon-text {
+    font-size: 20px;
+}
+
+.star-color {
+    color: red;
+}
+
+hr {
+    color: #a09c9c;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.muted-color {
+    color: #a09c9c;
+    font-size: 13px;
+}
+
+.comment-text {
+    font-size: 12px;
+}
