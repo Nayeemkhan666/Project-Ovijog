@@ -6,6 +6,6 @@ A web-based application(developing with MVC architecture) mainly focuses on the 
 
  Nayeem Khan
  ```
-- Contact No : 017811390500
+- Contact No : 01811390500
 - Gmail at nayeem2514@student.nstu.edu.bd 
 - GitHub at <a href="https://github.com/nayeemkhan" target="_blank">`Nayeem Khan GitHub`</a>
